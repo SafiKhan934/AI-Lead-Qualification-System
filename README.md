@@ -54,10 +54,26 @@ A separate n8n workflow that captures execution failures and sends automated ema
 
 [Download Error Handling Workflow (JSON)](AI-Lead-Qualification-Error-Workflow.json)
 
-### Data Processing Notes
+## Sample Data Files
 
-- Invalid Leads: Lead Score and AI qualification fields remain blank for invalid records because they are excluded from the AI qualification process.
-- Valid Leads: Follow-up Status is intentionally not updated by the current workflow. Automated follow-up status management is outside the current implementation scope.
+- [Sample CRM Input Data](Sample-CRM-Input-Data.csv) — Fictional CRM leads used to test the workflow.
+- [Sample CRM Execution Output](Sample-CRM-Execution-Output.csv) — CRM records after workflow execution.
+
+## Email Notifications
+
+### Automated Lead Notifications
+
+- **Hot Lead Notification:** Automated email sent for high-priority leads.
+- **Warm Lead Notification:** Automated email sent for potential leads.
+
+### Error Notification
+
+- **Error Notification Email:** Example of an error alert successfully received by email through the separate error-handling workflow.
+
+## Data Processing Notes
+
+- **Invalid Leads:** Lead Score and AI qualification fields remain blank for invalid records because they are excluded from the AI qualification process.
+- **Valid Leads:** Follow-up Status is intentionally not updated by the current workflow. Automated follow-up status management is outside the current implementation scope.
 
 These behaviors are intentional and reflect the current workflow design.
 
@@ -78,27 +94,44 @@ Developed and tested as a practical AI automation project using fictional lead d
 ## Project Screenshots
 
 ### 1. Workflow Overview
+
 ![Workflow Overview](Workflow%20Overview.png)
 
 ### 2. Successful Execution
-![Successfull Execution](Successfull%20Execution.png)
+
+![Successful Execution](Successfull%20Execution.png)
 
 ### 3. CRM Input – Test Data
+
 ![CRM Input – Test Data](CRM%20Input%20–%20Test%20Data.png)
 
 ### 4. CRM Validated Leads Data
+
 ![CRM Validated Leads Data](CRM%20Validated%20Leads%20Data.png)
 
 ### 5. CRM Hot, Warm & Unqualified Leads
-![CRM, Hot Warm & Unqualified Leads](CRM%20Hot,%20Warm%20&%20Unqualified%20Leads.png)
+
+![CRM Hot, Warm & Unqualified Leads](CRM%20Hot,%20Warm%20&%20Unqualified%20Leads.png)
+
+### 6. Error Handling Workflow
+
+![Error Handling Workflow](Error-Handling-Workflow.png)
+
+### 7. Error Notification Email
+
+![Error Notification Email](Error-Notification-Email.png)
+
+### 8. Hot Lead Notification
+
+![Hot Lead Notification](Hot-Lead-Notification.png)
+
+### 9. Warm Lead Notification
+
+![Warm Lead Notification](Warm-Lead-Notification.png)
 
 ## Project Videos
 
 The following videos demonstrate the project presentation, workflow execution, and practical functionality.
 
-1. Project Presentation & Workflow Execution: [Watch Video 1](https://youtu.be/TrbrbRSboZI  )
-2. Practical Workflow Demonstration: [Watch Video 2](https://youtu.be/4glMDupIduA  )
-
-
-
-
+1. Project Presentation & Workflow Execution: [Watch Video 1](https://youtu.be/TrbrbRSboZI)
+2. Practical Workflow Demonstration: [Watch Video 2](https://youtu.be/4glMDupIduA)
