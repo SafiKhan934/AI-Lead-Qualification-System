@@ -48,6 +48,13 @@ The workflow follows these main stages:
 7. CRM Updates and Email Notifications
 8. Error Handling
 
+### Data Processing Notes
+
+- Invalid Leads: Lead Score and AI qualification fields remain blank for invalid records because they are excluded from the AI qualification process.
+- Valid Leads: Follow-up Status is intentionally not updated by the current workflow. Automated follow-up status management is outside the current implementation scope.
+
+These behaviors are intentional and reflect the current workflow design.
+
 ## Project Status
 
 Developed and tested as a practical AI automation project using fictional lead data.
