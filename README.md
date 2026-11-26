@@ -48,6 +48,12 @@ The workflow follows these main stages:
 7. CRM Updates and Email Notifications
 8. Error Handling
 
+## Error Handling Workflow
+
+A separate n8n workflow that captures execution failures and sends automated email notifications with error details.
+
+[Download Error Handling Workflow (JSON)](AI-Lead-Qualification-Error-Workflow.json)
+
 ### Data Processing Notes
 
 - Invalid Leads: Lead Score and AI qualification fields remain blank for invalid records because they are excluded from the AI qualification process.
