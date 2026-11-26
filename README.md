@@ -62,3 +62,20 @@ Developed and tested as a practical AI automation project using fictional lead d
 
 **AI Automation & Integration | Management Sciences Student**
 
+## Project Screenshots
+
+### 1. Workflow Overview
+![Workflow Overview](workflow-overview.png)
+
+### 2. Successful Execution
+![Successful Execution](successful-execution.png)
+
+### 3. CRM-Hot-Warm-Cold-Leads
+![Hot/Warm Leads](crm-hot-warm-leads.png)
+
+### 4. CRM-Validated-Leads-Data
+![Validated CRM Data](crm-validated-lead-data.png)
+
+### 5. Invalid Leads
+![Invalid Leads](invalid-leads.png)
+
