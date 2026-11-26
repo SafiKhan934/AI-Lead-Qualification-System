@@ -68,13 +68,13 @@ Developed and tested as a practical AI automation project using fictional lead d
 ![Workflow Overview](Workflow%20Overview.png)
 
 ### 2. Successful Execution
-![Successful Execution](Successfull%20Execution.png)
+![Successfull Execution](Successfull%20Execution.png)
 
 ### 3. CRM – Hot, Warm and Cold Leads
-![CRM Hot Warm Cold Leads](CRM-Hot-Warm-Cold-Leads.png)
+![CRM-Hot-Warm-Cold-Leads](CRM-Hot-Warm-Cold-Leads.png)
 
 ### 4. CRM – Validated Leads Data
-![CRM Validated Lead Data](CRM-Validated-Lead-Data.png)
+![CRM-Validated-Lead-Data](CRM-Validated-Lead-Data.png)
 
 ### 5. Invalid Leads
 ![Invalid Leads](Invalid%20Leads.png)
