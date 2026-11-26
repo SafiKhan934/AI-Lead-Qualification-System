@@ -104,7 +104,7 @@ Developed and tested as a practical AI automation project using fictional lead d
 
 ### 3. CRM Input – Test Data
 
-![CRM Input – Test Data](CRM%20Input%20–%20Test%20Data.png)
+![CRM Input – Test Data](CRM%20Input%20-%20Test%20Data.png)
 
 ### 4. CRM Validated Leads Data
 
