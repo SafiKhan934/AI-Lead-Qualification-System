@@ -73,11 +73,11 @@ Developed and tested as a practical AI automation project using fictional lead d
 ### 3. Invalid Leads
 ![Invalid Leads](Invalid%20Leads.png)
 
-### 4. CRM – Validated Leads Data
-![CRM-Validated-Lead-Data](CRM-Validated-Lead-Data.png)
+### 4. CRM Validated Leads Data
+![CRM Validated Leads Data](CRM Validated Leads Data.png)
 
-### 5. CRM – Hot, Warm and Unqualified Leads
-![CRM-Hot-Warm-Cold-Unqualified](CRM-Hot-Warm-Unqualified-Leads.png)
+### 5. CRM Hot, Warm & Unqualified Leads
+![CRM, Hot Warm & Unqualified Leads](CRM Hot, Warm & Unqualified Leads.png)
 
 
 
