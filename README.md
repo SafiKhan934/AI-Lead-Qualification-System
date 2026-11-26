@@ -114,21 +114,23 @@ Developed and tested as a practical AI automation project using fictional lead d
 
 ![CRM Hot, Warm & Unqualified Leads](CRM%20Hot,%20Warm%20&%20Unqualified%20Leads.png)
 
-### 6. Error Handling Workflow
-
-![Error Handling Workflow](Error-Handling-Workflow.png)
-
-### 7. Error Notification Email
-
-![Error Notification Email](Error-Notification-Email.png)
-
-### 8. Hot Lead Notification
+### 6. Hot Lead Notification
 
 ![Hot Lead Notification](Hot-Lead-Notification.png)
 
-### 9. Warm Lead Notification
+### 7. Warm Lead Notification
 
 ![Warm Lead Notification](Warm-Lead-Notification.png)
+
+### 8. Error Handling Workflow
+
+![Error Handling Workflow](Error-Handling-Workflow.png)
+
+### 9. Error Notification Email
+
+![Error Notification Email](Error-Notification-Email.png)
+
+
 
 ## Project Videos
 
