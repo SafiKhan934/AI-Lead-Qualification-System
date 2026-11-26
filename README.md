@@ -65,7 +65,7 @@ Developed and tested as a practical AI automation project using fictional lead d
 ## Project Screenshots
 
 ### 1. Workflow Overview
-![Workflow Overview](Worflow%20Overview.png)
+![Workflow Overview](Workflow%20Overview.png)
 
 ### 2. Successful Execution
 ![Successful Execution](successful-execution.png)
