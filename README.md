@@ -60,7 +60,7 @@ Developed and tested as a practical AI automation project using fictional lead d
 
 ## Author
 
-**AI Automation & Integration | Management Sciences Student**
+**AI Automation & Integration | Management Sciences Undergruaduate Student**
 
 ## Project Screenshots
 
