@@ -37,7 +37,7 @@ This project uses n8n to automate lead processing. It retrieves lead records fro
 
 ## Workflow Architecture
 
-The workflow follows these main stages:
+The main workflow follows these stages:
 
 1. Lead Data Retrieval
 2. Data Validation
@@ -46,7 +46,8 @@ The workflow follows these main stages:
 5. AI Output Validation
 6. Lead Categorization
 7. CRM Updates and Email Notifications
-8. Error Handling
+
+A separate Error Handling Workflow is configured in the main workflow's settings to capture execution failures and send automated Gmail notifications.
 
 ## Error Handling Workflow
 
