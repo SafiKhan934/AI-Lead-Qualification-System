@@ -6,6 +6,23 @@ An AI-powered lead qualification and categorization system built using **n8n, Go
 
 The AI Lead Qualification System automates the process of reviewing, validating, analyzing, and categorizing business leads. It uses AI-powered analysis to help organize lead information and streamline follow-up processes.
 
+
+
+## 📥 Download Workflow
+
+Download the main n8n workflow JSON file:
+
+- **[AI Lead Qualification System – Main Workflow JSON](./AI%20Lead%20Qualification%20System%20GitHub-Safe.json)**
+
+To import it:
+1. Download the JSON file.
+2. Open your n8n instance.
+3. Select **Overview → Add workflow → Import from File**.
+4. Select the downloaded JSON file.
+5. Configure your credentials and review the workflow settings before execution.
+
+
+
 ## Business Problem
 
 Manually reviewing and qualifying leads can consume time, create inconsistent assessments, and delay follow-ups. Businesses need a structured process to validate incoming lead data, prioritize potential customers, and manage lead records efficiently.
@@ -47,11 +64,9 @@ The main workflow follows these stages:
 6. Lead Categorization
 7. CRM Updates and Email Notifications
 
-A separate Error Handling Workflow is configured in the main workflow's settings to capture execution failures and send automated Gmail notifications.
-
 ## Error Handling Workflow
 
-A separate n8n workflow that captures execution failures and sends automated email notifications with error details.
+A separate Error Handling Workflow is configured in the main workflow's error workflow settings to capture execution failures and send automated Gmail notifications.
 
 [Download Error Handling Workflow (JSON)](AI-Lead-Qualification-Error-Workflow.json)
 
