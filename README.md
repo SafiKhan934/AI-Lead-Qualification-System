@@ -136,15 +136,15 @@ To use the automation:
 
 ### 5. AI Lead Analysis (LLM Node)
 
-![LLM Lead Analysis](LLM-Lead-Analysis.png)
+![LLM Lead Analysis](AI-Lead-Analysis.png)
 
 ### 6. Post-AI Data Processing (Code Node)
 
-![Post-AI Data Processing](Post-AI-Data-Processing.png)
+![Post-AI Data Processing](Validate%20AI%20Results.png)
 
 ### 7. Lead Category Routing (Switch Node)
 
-![Lead Category Routing Switch](Lead-Category-Routing-Switch.png)
+![Lead Category Routing Switch](Categorize%20Leads.png)
 
 ### 8. CRM Hot, Warm & Unqualified Leads
 
