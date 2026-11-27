@@ -182,7 +182,7 @@ Additional project materials are available below for a detailed understanding of
 
 ### Project Presentation
 
-- [PowerPoint Presentation (PPTX)](AI-Lead-Qualification-System-Presentation.pptx)
+- [PowerPoint Presentation (PDF)](AI-Lead-Qualification-System-Presentation.pdf)
 
 ### Project Documentation
 
