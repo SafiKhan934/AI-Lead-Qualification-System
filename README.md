@@ -90,7 +90,7 @@ Developed and tested as a practical AI automation project using fictional lead d
 
 ## Author
 
-**AI Automation & Integration | Management Sciences Undergraduate Student**
+**AI Automation & Integration | Management Sciences Undergraduate Student at GIKI**
 
 ## Project Screenshots
 
