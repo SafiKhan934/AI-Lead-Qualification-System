@@ -1,6 +1,6 @@
 # AI Lead Qualification System
 
-An AI-powered lead qualification and categorization system built using n8n, Google Gemini, Google Sheets, and Gmail.
+An AI-powered lead qualification and categorization system built using **n8n, Google Gemini, Google Sheets, and Gmail**.
 
 ## Project Overview
 
@@ -88,6 +88,30 @@ Developed and tested as a practical AI automation project using fictional lead d
 - AI-generated scores and categories require human review before business decisions.
 - Public live deployment is not currently available.
 
+## Setup & Configuration
+
+The workflow JSON files are sanitized portfolio templates and are not ready to run immediately after import.
+
+To use the automation:
+
+1. Install or access an n8n instance.
+2. Import the main workflow JSON file.
+3. Configure your own AI model credentials for Google Gemini.
+4. Connect your Google Sheets account and configure your own CRM spreadsheet.
+5. Connect your Gmail account and configure the required email recipient details.
+6. Configure any required API credentials, webhook settings, and integration parameters.
+7. Import and configure the separate error workflow.
+8. Submit sample lead data and test the workflow.
+
+**Note:** The exported workflow files do not contain working credentials or private account configurations. You must configure your own integrations before execution.
+
+### Sample Data & Privacy
+
+- All lead information provided in this repository is fictional and created for demonstration and testing purposes.
+- No real customer or business information is intentionally included.
+- Workflow JSON files are sanitized to remove private credentials and account-specific configurations.
+- Use fictional or properly authorized test data when reproducing this project.
+
 ## Author
 
 **AI Automation & Integration | Management Sciences Undergraduate Student at GIKI**
@@ -110,34 +134,44 @@ Developed and tested as a practical AI automation project using fictional lead d
 
 ![CRM Validated Leads Data](CRM%20Validated%20Leads%20Data.png)
 
-### 5. CRM Hot, Warm & Unqualified Leads
+### 5. AI Lead Analysis (LLM Node)
+
+![LLM Lead Analysis](LLM-Lead-Analysis.png)
+
+### 6. Post-AI Data Processing (Code Node)
+
+![Post-AI Data Processing](Post-AI-Data-Processing.png)
+
+### 7. Lead Category Routing (Switch Node)
+
+![Lead Category Routing Switch](Lead-Category-Routing-Switch.png)
+
+### 8. CRM Hot, Warm & Unqualified Leads
 
 ![CRM Hot, Warm & Unqualified Leads](CRM%20Hot,%20Warm%20&%20Unqualified%20Leads.png)
 
-### 6. Hot Lead Notification
+### 9. Hot Lead Notification
 
 ![Hot Lead Notification](Hot-Lead-Notification.png)
 
-### 7. Warm Lead Notification
+### 10. Warm Lead Notification
 
 ![Warm Lead Notification](Warm-Lead-Notification.png)
 
-### 8. Error Handling Workflow
+### 11. Error Handling Workflow
 
 ![Error Handling Workflow](Error-Handling-Workflow.png)
 
-### 9. Error Notification Email
+### 12. Error Notification Email
 
 ![Error Notification Email](Error-Notification-Email.png)
-
-
 
 ## Project Videos
 
 The following videos demonstrate the project presentation, workflow execution, and practical functionality.
 
-1. Project Presentation & Workflow Execution: [Watch Video 1](https://youtu.be/TrbrbRSboZI)
-   (NOTE: Execution / Testing of workflow starts at 5:26)
+1. **Project Presentation & Workflow Execution:** [Watch Video 1](https://youtu.be/TrbrbRSboZI)
 
-   
-2. Practical Workflow Demonstration: [Watch Video 2](https://youtu.be/4glMDupIduA)
+   *Note: Execution / Testing of workflow starts at 5:26.*
+
+2. **Practical Workflow Demonstration:** [Watch Video 2](https://youtu.be/4glMDupIduA)
