@@ -175,3 +175,15 @@ The following videos demonstrate the project presentation, workflow execution, a
    *Note: Execution / Testing of workflow starts at 5:26.*
 
 2. **Practical Workflow Demonstration:** [Watch Video 2](https://youtu.be/4glMDupIduA)
+
+## Project Documentation & Presentation
+
+Additional project materials are available below for a detailed understanding of the system's design, implementation, and workflow.
+
+### Project Presentation
+
+- [PowerPoint Presentation (PPTX)](AI-Lead-Qualification-System-Presentation.pptx)
+
+### Project Documentation
+
+[View Project Documentation (PDF)](AI-Lead-Qualification-System-Documentation.pdf)
