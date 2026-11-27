@@ -138,6 +138,7 @@ The following videos demonstrate the project presentation, workflow execution, a
 
 1. Project Presentation & Workflow Execution: [Watch Video 1](https://youtu.be/TrbrbRSboZI)
 
-   (NOTE: Execution / Testing of workflow starts at 5:26)
+(NOTE: Execution / Testing of workflow starts at 5:26)
+
    
 2. Practical Workflow Demonstration: [Watch Video 2](https://youtu.be/4glMDupIduA)
