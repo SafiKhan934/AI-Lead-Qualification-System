@@ -2,6 +2,8 @@
 
 An AI-powered lead qualification and categorization system built using **n8n, Google Gemini, Google Sheets, and Gmail**.
 
+
+
 ## Project Overview
 
 The AI Lead Qualification System automates the process of reviewing, validating, analyzing, and categorizing business leads. It uses AI-powered analysis to help organize lead information and streamline follow-up processes.
@@ -27,9 +29,13 @@ To import it:
 
 Manually reviewing and qualifying leads can consume time, create inconsistent assessments, and delay follow-ups. Businesses need a structured process to validate incoming lead data, prioritize potential customers, and manage lead records efficiently.
 
+
+
 ## Proposed Solution
 
 This project uses n8n to automate lead processing. It retrieves lead records from Google Sheets, validates the data, analyzes valid leads using Google Gemini, and routes them according to their qualification categories.
+
+
 
 ## Technologies Used
 
@@ -41,6 +47,8 @@ This project uses n8n to automate lead processing. It retrieves lead records fro
 - **JSON:** Structured data exchange
 - **APIs and Webhooks:** Workflow integration and triggering
 
+
+
 ## Key Features
 
 - Automated CRM lead retrieval
@@ -51,6 +59,8 @@ This project uses n8n to automate lead processing. It retrieves lead records fro
 - Google Sheets record updates
 - Automated email notifications
 - Error handling and workflow monitoring
+
+
 
 ## Workflow Architecture
 
@@ -64,16 +74,22 @@ The main workflow follows these stages:
 6. Lead Categorization
 7. CRM Updates and Email Notifications
 
+
+
 ## Error Handling Workflow
 
 A separate Error Handling Workflow is configured in the main workflow's error workflow settings to capture execution failures and send automated Gmail notifications.
 
 [Download Error Handling Workflow (JSON)](AI-Lead-Qualification-Error-Workflow.json)
 
+
+
 ## Sample Data Files
 
 - [Sample CRM Input Data](Sample-CRM-Input-Data.csv) — Fictional CRM leads used to test the workflow.
 - [Sample CRM Execution Output](Sample-CRM-Execution-Output.csv) — CRM records after workflow execution.
+
+
 
 ## Email Notifications
 
@@ -86,6 +102,8 @@ A separate Error Handling Workflow is configured in the main workflow's error wo
 
 - **Error Notification Email:** Example of an error alert successfully received by email through the separate error-handling workflow.
 
+
+
 ## Data Processing Notes
 
 - **Invalid Leads:** Lead Score and AI qualification fields remain blank for invalid records because they are excluded from the AI qualification process.
@@ -93,15 +111,21 @@ A separate Error Handling Workflow is configured in the main workflow's error wo
 
 These behaviors are intentional and reflect the current workflow design.
 
+
+
 ## Project Status
 
 Developed and tested as a practical AI automation project using fictional lead data.
+
+
 
 ## Limitations
 
 - The workflow was developed and tested in a local n8n environment.
 - AI-generated scores and categories require human review before business decisions.
 - Public live deployment is not currently available.
+
+
 
 ## Setup & Configuration
 
@@ -127,9 +151,13 @@ To use the automation:
 - Workflow JSON files are sanitized to remove private credentials and account-specific configurations.
 - Use fictional or properly authorized test data when reproducing this project.
 
+
+
 ## Author
 
 **AI Automation & Integration | Management Sciences Undergraduate Student at GIKI**
+
+
 
 ## Project Screenshots
 
@@ -181,6 +209,8 @@ To use the automation:
 
 ![Error Notification Email](Error-Notification-Email.png)
 
+
+
 ## Project Videos
 
 The following videos demonstrate the project presentation, workflow execution, and practical functionality.
@@ -190,6 +220,8 @@ The following videos demonstrate the project presentation, workflow execution, a
    *Note: Execution / Testing of workflow starts at 5:26.*
 
 2. **Practical Workflow Demonstration:** [Watch Video 2](https://youtu.be/4glMDupIduA)
+
+
 
 ## Project Documentation & Presentation
 
